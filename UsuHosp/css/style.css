@@ -1,0 +1,83 @@
+
+*{
+	margin:0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	background: url(../img/camas.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container .form .form-header .form-title{
+
+	font-weight: normal;
+	font-family: sans-serif;
+	color: #ff851b;
+	text-align: center;
+	padding: 20px 0;
+
+}
+.container .form .form-header .form-title span {
+	color: #fff;
+
+}
+.container .form {
+	background: rgba(0,0,0,.6);
+	width: 120%;
+	max-width: 800px;
+	margin: auto;
+	padding: 20px 40px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	border-radius: 3px;
+}
+.container .form .form-label{
+	display: block;
+	color: #ff851b;
+	font-size: 20px;
+	font-family: Arial;
+	position: relative;
+}
+
+.container .form .form-input {
+	background: rgba(0,0,0,.7);
+	border:none;
+	outline: none;
+	border-bottom: 2px solid #ff851b;
+	width: 120%;
+	padding: 15px;
+	margin-bottom: 30px;
+	border-radius: 3px;
+	font-size: 16px;
+	color: #FFF;
+	font-family: Arial;
+}
+
+.container .form .form-textarea{
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px;
+}
+
+.container .form .btn-submit{
+	width: 120%;
+	font-family: Arial;
+	outline: none;
+	background: #ff851b;
+	font-size: 16px;
+	border: none;
+	color: #fff;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .6s ease;
+}
+
+.container .form .btnsubmit{
+	background: #F29718;
+
+}

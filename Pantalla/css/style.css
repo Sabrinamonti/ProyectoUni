@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+
+	background: #FF33F0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'arial';
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+h1{
+	font-size: 26px;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 18px;
+}
+h4{
+	font-size: 16px;
+}
+h5{
+	font-size: 14px;
+}
+h6{
+	font-size: 12px;
+}
+p{
+	font-family: 'arial';
+	letter-spacing: 2px;
+	font-size: 14px;
+	line-height: 20px;
+}
+a{
+	text-decoration: none;
+	font-family: 'arial';
+	letter-spacing: 1px;
+}
+span{
+	font-family: 'GothamBook';
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+header{
+	position: fixed;
+	width: 100%;
+}
+.header{
+	color: #FFF;
+	background: #FF33F0;
+	height: 35px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+.optionsbar{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.optionsbar span{
+	color: #FFF;
+	font-size: 11pt;
+	font-family: 'GothamBook';
+	text-transform: uppercase;
+	margin-left: 30px;
+}
+.close{
+	width: 25px;
+	height: 25px;
+}
+.optionsbar a {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-left: 30px;
+}
+#container{
+	padding: 90px 15px 15px;
+}

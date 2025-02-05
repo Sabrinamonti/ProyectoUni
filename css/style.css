@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+h3{
+	font-family: 'Arial';
+	font-size: 25pt;
+	letter-spacing: 1px;
+	width: 100%;
+	background: #806CFF;
+	padding: 15px;
+	color: #FFF;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#container{
+	background-image: url('../imagenes/Hos3.jpg');
+	width: 100%;
+	height: 100vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#container form{
+
+	background: #FFF;
+	width: 400px;
+	padding: 10px;
+}
+#container form input{
+	width: 90%;
+	padding: 5px;
+	font-size: 16pt;
+	display: block;
+	margin: 25px auto;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	text-align: center;
+}
+#container form input[type= "submit"]{
+	background: #B8FF6C;
+	padding: 10px;
+	color: #FFF;
+	letter-spacing: 2px;
+	border: 0;
+	cursor: pointer;
+}
+.alert{
+	font-family: 'Arial';
+	font-size: 10px;
+	text-align: center;
+}
